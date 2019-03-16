@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>EE376A Demo</title>
+  <link rel="stylesheet" href="/style.css" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+</head>
+<body>
+  <div id="main">
+    <h1>Noisy Communication Demo</h1>
+    <div id="body-div">
+      <form id="form">
+        <label for="name">Send Text:</label>
+        <input name="send" id="send" type="text" default="send" />
+        <button id="send-button">SEND</button>
+      </form>
+      <div id="received-text-div">
+        <p id="received-text"></p>
+      </div>
+      <div id="connection-status" class="not-ready"></div>
+    </div>
+  </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
