@@ -1,4 +1,3 @@
-// const functions = require('firebase-functions');
 const http = require('http');
 const fs = require('fs');
 const io_ = require('socket.io');
