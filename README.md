@@ -1,6 +1,6 @@
-#Setup
-* Install `npm` if not present
+# Setup
+* Install `node`, `npm` if not present
 * `npm install`
-#Launch Server
+# Launch Server
 * `sudo node app.js`
 * Navigate to http://localhost/
